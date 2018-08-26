@@ -233,13 +233,11 @@ struct Token
 	SemInfo		m_sem;
 };
 
-
 int main(int argc, char* argv[])
 {
 	puts("hello");
 
-	// const char* filepath = "D:/projects/gravite2/source/tools/mob_tools/bt.scm";
-	const char* filepath = "D:/devel/sexp/sexp/sample.scm";
+	const char* filepath = "./sample/sample.scm";
 
 	int srcSize;
 	const char* srcText = ReadSexp(filepath, &srcSize);
