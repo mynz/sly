@@ -3,6 +3,7 @@ workspace "sly"
 
 project "sly"
 	kind "ConsoleApp"
+	language "C++"
 	targetdir "bin/${conf.buidlcfg}"
 	files { "src/**.cpp", "src/**.h" }
 
